@@ -35,6 +35,11 @@ alias pban='echo -n '-' > ~/.config/pianobar/ctl'
 # Dropbox aliases
 alias dropbox='python2 ~/.dropbox/dropbox.py'
 
+# t aliases
+alias proj='python2 ~/.scripts/t.py --task-dir ~/.t --list projects'
+alias hw='python2 ~/.scripts/t.py --task-dir ~/.t --list hw'
+alias movies='python2 ~/.scripts/t.py --task-dir ~/.t --list movies'
+
 # grabs info created from scripts/prompt_update
 # formats it to print over to the right of the prompt
 function system_stats {
