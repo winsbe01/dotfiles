@@ -23,7 +23,7 @@ alias google='sr google'
 alias wiki='sr wikipedia'
 alias imdb='sr imdb'
 alias aur='sr aur'
-alias jdoc='sr google -l java'
+alias ddg='sr duckduckgo'
 
 # Pianobar aliases
 alias pnext='echo -n 'n' > ~/.config/pianobar/ctl'
@@ -38,7 +38,7 @@ alias dropbox='python2 ~/.dropbox/dropbox.py'
 # t aliases
 alias proj='python2 ~/.scripts/t.py --task-dir ~/.t --list projects'
 alias hw='python2 ~/.scripts/t.py --task-dir ~/.t --list hw'
-alias movies='python2 ~/.scripts/t.py --task-dir ~/.t --list movies'
+alias m='python2 ~/.scripts/t.py --task-dir ~/.t --list movies'
 
 # grabs info created from scripts/prompt_update
 # formats it to print over to the right of the prompt
