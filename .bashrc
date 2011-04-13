@@ -32,6 +32,13 @@ alias pquit='echo -n 'q' > ~/.config/pianobar/ctl'
 alias plove='echo -n '+' > ~/.config/pianobar/ctl'
 alias pban='echo -n '-' > ~/.config/pianobar/ctl'
 
+# cmus-remote aliases
+alias cnext='cmus-remote -n'
+alias cpause='cmus-remote -u'
+alias cstop='cmus-remote -s'
+alias cshuffle='cmus-remote -S'
+alias cstat='cmus-remote -Q'
+
 # Dropbox aliases
 alias dropbox='python2 ~/.dropbox/dropbox.py'
 
